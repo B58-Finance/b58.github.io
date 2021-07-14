@@ -26,7 +26,7 @@ const Menu = ( {hover, onClick}: Props ) => {
     <a href="https://b58finance.medium.com/" target="_blank" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
       Blog
     </a>
-    <a href="#whitepaper" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
+    <a href="/assets/docs/whitepaper_062021.pdf" target="_blank" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
       Whitepaper
     </a>
     </>
