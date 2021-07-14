@@ -64,7 +64,7 @@ const Index = ({ allPosts }: Props) => {
                   <a href="#" role="button" className="w-full mb-4 text-center border-2 border-blue-light bg-blue-light hover:border-white hover:shadow-lg hover:bg-white hover:text-blue-light text-sm text-white uppercase font-bold py-4 px-6 rounded-md mr-10">
                     Available Soon
                   </a>
-                  <a href="/assets/docs/whitepaper_062021.pdf" target="_blank" role="button" className="w-full mb-4 text-center border-2 border-blue-light hover:border-white hover:text-white text-sm text-blue-light uppercase font-bold py-4 px-6 rounded-md">
+                  <a href="/assets/docs/whitepaper_v1_062021.pdf" target="_blank" role="button" className="w-full mb-4 text-center border-2 border-blue-light hover:border-white hover:text-white text-sm text-blue-light uppercase font-bold py-4 px-6 rounded-md">
                     Read the Whitepaper
                   </a>
                 </div>
