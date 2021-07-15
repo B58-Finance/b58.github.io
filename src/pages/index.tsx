@@ -95,7 +95,7 @@ const Index = ({ allPosts }: Props) => {
                 <h1 className="mb-8 text-3xl lg:text-6xl font-medium leading-tight">
                   About B58 Finance be powered by Cardano
                 </h1>
-                <p className="text-base text-justify lg: text-left lg:mr-8">
+                <p className="text-base text-justify lg:text-left lg:mr-8">
                   <strong>B58 Finance</strong> is a decentralized finance multi-feature wallet built on top of Cardano Blockchain. That provides the operational financial system infrastructure to our services.
                   <br /><br />
                   This allows us to build features that empower you to be your own bank, using Peer-to-Peer communication with no need for middle agents.
