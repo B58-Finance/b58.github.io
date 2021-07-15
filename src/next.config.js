@@ -5,6 +5,6 @@
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  // assetPrefix: !debug ? '/motor.github.io/' : '',
+  // assetPrefix: !debug ? '/b58.github.io/' : '',
   assetPrefix: '',
 }

@@ -12,6 +12,7 @@ import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
 import { useState } from 'react'
 import Roadmap from '../components/roadmap'
+import { GA_TRACKING_ID } from '../lib/gtag'
 
 
 type Props = {
@@ -43,6 +44,23 @@ const Index = ({ allPosts }: Props) => {
             Where everyone is welcome on B58 DeFi Wallet on Cardano, that you are in control of your finances..`}
           />
           <meta property="og:image" content="/images/cover.jpeg" />
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_TRACKING_ID}', {
+                page_path: window.location.pathname,
+              });
+            `,
+            }}
+          />
         </Head>
         <Navigation />
         <div id="home" className={"pt-16 -mt-16 lg:pt-32 lg:-mt-32 text-white bg-home dark:to-blue-dark"}>
