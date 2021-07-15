@@ -98,7 +98,7 @@ const Index = ({ allPosts }: Props) => {
                 <p className="text-base text-justify lg: text-left lg:mr-8">
                   <strong>B58 Finance</strong> is a decentralized finance multi-feature wallet built on top of Cardano Blockchain. That provides the operational financial system infrastructure to our services.
                   <br /><br />
-                  This allows us to build features that empower you to be your own bank, using Pee-to-Peer communication with no need for middle agents.
+                  This allows us to build features that empower you to be your own bank, using Peer-to-Peer communication with no need for middle agents.
                   <br /><br />
                   We aim to bring the next generation of wallets to you and provide the same experience available today. By using traditional mobile banks and remove the complexity of the blockchain world.
                 </p>
