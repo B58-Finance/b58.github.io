@@ -9,7 +9,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
     <div className="flex flex-col lg:flex-row mt-6 mb-10">
       {("lovelace" === activeTab) &&
         <>
-        <div className="w-full lg:w-3/6 text-left md:text-center">
+        <div className="w-full lg:w-3/6 lg:text-left md:text-center">
           <ArtAvatar
             stage="01"
             name="Ada Lovelace"
@@ -89,7 +89,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
       }
       {("martin" === activeTab) &&
         <>
-        <div className="w-full lg:w-3/6 text-left md:text-center">
+        <div className="w-full lg:w-3/6 lg:text-left md:text-center">
           <ArtAvatar
             stage="02"
             name="Per Martin-Löf"
@@ -175,7 +175,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
       }
       {("frege" === activeTab) &&
         <>
-        <div className="w-full lg:w-3/6 text-left md:text-center">
+        <div className="w-full lg:w-3/6 lg:text-left md:text-center">
           <ArtAvatar
             stage="03"
             name="Gottlob Frege"
@@ -263,7 +263,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
       }
       {("holberton" === activeTab) &&
         <>
-        <div className="w-full lg:w-3/6 text-left md:text-center">
+        <div className="w-full lg:w-3/6 lg:text-left md:text-center">
           <ArtAvatar
             stage="04"
             name="Betty Holberton"
