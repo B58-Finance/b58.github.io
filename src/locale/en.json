@@ -1,0 +1,29 @@
+{
+  "menu.about": {
+    "defaultMessage": "About"
+  },
+  "menu.blog": {
+    "defaultMessage": "Blog"
+  },
+  "menu.defi": {
+    "defaultMessage": "DeFi"
+  },
+  "menu.roadmap": {
+    "defaultMessage": "Roadmap"
+  },
+  "menu.team": {
+    "defaultMessage": "Team"
+  },
+  "menu.wallet": {
+    "defaultMessage": "Wallet"
+  },
+  "menu.whitepaper": {
+    "defaultMessage": "Whitepaper"
+  },
+  "page.b58.welcome": {
+    "defaultMessage": "Be part of an open, secure and global financial world"
+  },
+  "page.title": {
+    "defaultMessage": "B58 Finance - Multi Feature DeFi Wallet on Cardano"
+  }
+}

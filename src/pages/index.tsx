@@ -13,6 +13,20 @@ import Post from '../types/post'
 import { useState } from 'react'
 import Roadmap from '../components/roadmap'
 import { GA_TRACKING_ID } from '../lib/gtag'
+import { defineMessages } from 'react-intl'
+import f, { setLanguage } from "../lib/translate";
+
+
+const messages = defineMessages({
+  title: {
+    id: 'page.title',
+    defaultMessage: 'B58 Finance - Multi Feature DeFi Wallet on Cardano'
+  },
+  b58Welcome: {
+    id: 'page.b58.welcome',
+    defaultMessage: 'Be part of an open, secure and global financial world'
+  }
+})
 
 
 type Props = {
@@ -30,7 +44,7 @@ const Index = ({ allPosts }: Props) => {
     <>
       <Layout>
         <Head>
-          <title>B58 Finance - Multi Feature DeFi Wallet on Cardano</title>
+          <title>{f(messages.title)}</title>
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@B58Finance" />
           <meta name="twitter:title" content="B58 Finance - Multi Feature DeFi Wallet on Cardano" />
@@ -68,7 +82,7 @@ const Index = ({ allPosts }: Props) => {
             <div className="grid grid-cols-1 md:grid-cols-2 md:col-gap-16 lg:col-gap-32 row-gap-0 md:row-gap-32">
               <div className="p-6">
                 <h1 className="lg:mt-16 mb-8 lg:mr-10 text-3xl lg:text-6xl font-medium leading-tight">
-                  Be part of an open, secure and global  financial world
+                  {f(messages.b58Welcome)}
                 </h1>
                 <p className="text-base lg:mr-8 text-justify lg:text-left">
                   The easiest way of being part of a decentralized financial world. Where everyone is welcome on B58 DeFi Wallet on Cardano, that you are in control of your finances.

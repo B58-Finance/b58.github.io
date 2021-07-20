@@ -1,0 +1,56 @@
+{
+  "menu.about": [
+    {
+      "type": 0,
+      "value": "About"
+    }
+  ],
+  "menu.blog": [
+    {
+      "type": 0,
+      "value": "Blog"
+    }
+  ],
+  "menu.defi": [
+    {
+      "type": 0,
+      "value": "DeFi"
+    }
+  ],
+  "menu.roadmap": [
+    {
+      "type": 0,
+      "value": "Roadmap"
+    }
+  ],
+  "menu.team": [
+    {
+      "type": 0,
+      "value": "Team"
+    }
+  ],
+  "menu.wallet": [
+    {
+      "type": 0,
+      "value": "Wallet"
+    }
+  ],
+  "menu.whitepaper": [
+    {
+      "type": 0,
+      "value": "Whitepaper"
+    }
+  ],
+  "page.b58.welcome": [
+    {
+      "type": 0,
+      "value": "Be part of an open, secure and global financial world"
+    }
+  ],
+  "page.title": [
+    {
+      "type": 0,
+      "value": "B58 Finance - Multi Feature DeFi Wallet on Cardano"
+    }
+  ]
+}

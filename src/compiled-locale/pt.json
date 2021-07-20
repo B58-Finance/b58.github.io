@@ -1,0 +1,56 @@
+{
+  "menu.about": [
+    {
+      "type": 0,
+      "value": "Sobre"
+    }
+  ],
+  "menu.blog": [
+    {
+      "type": 0,
+      "value": "Blog"
+    }
+  ],
+  "menu.defi": [
+    {
+      "type": 0,
+      "value": "DeFi"
+    }
+  ],
+  "menu.roadmap": [
+    {
+      "type": 0,
+      "value": "Roadmap"
+    }
+  ],
+  "menu.team": [
+    {
+      "type": 0,
+      "value": "Equipe"
+    }
+  ],
+  "menu.wallet": [
+    {
+      "type": 0,
+      "value": "Carteira"
+    }
+  ],
+  "menu.whitepaper": [
+    {
+      "type": 0,
+      "value": "Whitepaper"
+    }
+  ],
+  "page.b58.welcome": [
+    {
+      "type": 0,
+      "value": "Faça parte de um mundo financeiro global, aberto e securo"
+    }
+  ],
+  "page.title": [
+    {
+      "type": 0,
+      "value": "B58 Finance - Carteira DeFi no Cardano Crypto Moeda"
+    }
+  ]
+}
