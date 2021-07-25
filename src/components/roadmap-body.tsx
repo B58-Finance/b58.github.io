@@ -1,4 +1,166 @@
 import ArtAvatar from "./art-avatar"
+import { defineMessages } from 'react-intl'
+import f from "../lib/translate";
+
+const messages = defineMessages({
+  roadmapBodyScope: {
+    id: 'roadmap.body.scope',
+    defaultMessage: 'Scope Of Work'
+  },
+  roadmapBodyLovelace: {
+    id: 'roadmap.body.lovelace',
+    defaultMessage: 'Pioneer of Computer Science by writing the first algorithm to be execute in a computer.'
+  },
+  roadmapBodyWallet: {
+    id: 'roadmap.body.wallet',
+    defaultMessage: 'Wallet'
+  },
+  roadmapBodyWalletDescription: {
+    id: 'roadmap.body.wallet.description',
+    defaultMessage: 'Fully feature Cardano wallet, that is the core feature of B58 Finance - DeFi platform. Our aim is to bring the best user experience for Blockchain users.'
+  },
+  roadmapBodyWalletItems: {
+    id: 'roadmap.body.wallet.items',
+    defaultMessage: '<li>Multi Account Management</li>'+
+    '<li>Send/Receive Tokens (ADA/Native Tokens)</li>'+
+    '<li>Savings using Cardano Staking Pools, first at our own Pools</li>'+
+    '<li>Voting integration with Project Catalyst Funds.</li>'
+  },
+  roadmapBodyWalletMore: {
+    id: 'roadmap.body.wallet.more',
+    defaultMessage: 'This stage includes the development of a Browser Extension, with web3 like integration.'+
+    'And also a mobile Application for Android and iOS platform.'
+  },
+  roadmapBodySP: {
+    id: 'roadmap.body.sp',
+    defaultMessage: 'Stake Pool'
+  },
+  roadmapBodySPDescription: {
+    id: 'roadmap.body.sp.description',
+    defaultMessage: 'Development of the Stake pool infrastructure, with minimun of 2 nodes relays and 1 node core.'
+  },
+  roadmapBodyNetwork: {
+    id: 'roadmap.body.network',
+    defaultMessage: 'Network'
+  },
+  roadmapBodyNetworkDescription: {
+    id: 'roadmap.body.network.description',
+    defaultMessage: 'Development our first Mainnet version, which will provide the APIs the backend features.'
+  },
+  roadmapBodyMartin: {
+    id: 'roadmap.body.martin',
+    defaultMessage: 'Pioneer of Computer Science by developing the philosophical foundations of type theory.'
+  },
+  roadmapBodyMT: {
+    id: 'roadmap.body.mt',
+    defaultMessage:'Mission Transparency'
+  },
+  roadmapBodyMTDescription: {
+    id: 'roadmap.body.mt.description',
+    defaultMessage:'The Mission Transparency, is a feature focused on our Community Mission Driven Stake pools that will provide visibility to their Donations.'
+  },
+  roadmapBodyMTItems: {
+    id: 'roadmap.body.mt.items',
+    defaultMessage: '<li>Using Cardano’s Metadata Transaction we are going provide an immutable and trackable record of their Donations.</li>'+
+    '<li>We also can support the payment of theses Donation through our wallet making partnership with the NGOs.</li>'
+  },
+  roadmapBodyTI: {
+    id:'roadmap.body.ti',
+    defaultMessage: 'Token Issue'
+  },
+  roadmapBodyTIDescription: {
+    id: 'roadmap.body.ti.description',
+    defaultMessage: 'The Token Issue is when we release our Native Token, and integrate with the wallet and our DeFi services.'
+  },
+  roadmapBodyTIItems: {
+    id: 'roadmap.body.ti.items',
+    defaultMessage: '<li>Issue our Utility token to serve as rewards and use in specific DeFi features that we’re going to develop.</li>'
+  },
+  roadmapBodyBL: {
+    id:'roadmap.body.bl',
+    defaultMessage: 'Borrowing and Lending'
+  },
+  roadmapBodyBLDescription: {
+    id: 'roadmap.body.bl.description',
+    defaultMessage: 'The Borrowing/Lending feature is using the collateralised standard already in place in the crypto market.'
+  },
+  roadmapBodyBLItems: {
+    id: 'roadmap.body.bl.items',
+    defaultMessage: '<li>As A Lender users can provide liquidity to contract pools, which will earn yields from the borrowing rate.</li>'+
+    '<li>As a Borrowing users can put a collateral asset and get another paying an interest rate over it.</li>'
+  },
+  roadmapBodyFrege: {
+    id: 'roadmap.body.frege',
+    defaultMessage: 'Pioneer of Computer Science by Extending Aristotelian logic with first-order predicate calculus.'
+  },
+  roadmapBodyBS: {
+    id: 'roadmap.body.bs',
+    defaultMessage: 'Buy and Sell ADA'
+  },
+  roadmapBodyBSDescription: {
+    id: 'roadmap.body.bs.description',
+    defaultMessage: 'We\'re going to develop a liquidity system to provide the feature of buy/sell ADA with Fiat currency.'
+  },
+  roadmapBodyBSItems: {
+    id: 'roadmap.body.bs.items',
+    defaultMessage: '<li>Will also Evaluate liquidity providers available in market.</li>'
+  },
+  roadmapBodySL: {
+    id: 'roadmap.body.sl',
+    defaultMessage: 'Social Lending'
+  },
+  roadmapBodySLDescription: {
+    id: 'roadmap.body.sl.description',
+    defaultMessage: 'The Social lending feature that will fund Small Business through a Micro Lending Loan within a limit to be defined.'
+  },
+  roadmapBodySLItems: {
+    id: 'roadmap.body.sl.items',
+    defaultMessage: '<li>Users “Small Business” will be able to pitch their needs, and seek for fund through it.</li>'+
+    '<li>Each Lender will be able to have one active lending and a maximum amount in our initial offer.</li>'
+  },
+  roadmapBodyDC: {
+    id: 'roadmap.body.dc',
+    defaultMessage: 'Debit Card'
+  },
+  roadmapBodyDCDescription: {
+    id: 'roadmap.body.dc.description',
+    defaultMessage: 'The Debit Card, will provide the pay with crypto feature to users.'
+  },
+  roadmapBodyDCItems: {
+    id: 'roadmap.body.dc.items',
+    defaultMessage: '<li>Users can get Debit cards with automatic conversion between Fiat/Crypto when using the card.</li>'+
+    '<li>This feature will be provided via partnership with third party providers available in the market.</li>'
+  },
+  roadmapBodyHolberton: {
+    id: 'roadmap.body.holberton',
+    defaultMessage: 'Pioneer of Computer Science by writing the first mainframe sort merge on the Univac.'
+  },
+  roadmapBodyTS: {
+    id: 'roadmap.body.ts',
+    defaultMessage: 'Token Swap'
+  },
+  roadmapBodyTSDescription: {
+    id: 'roadmap.body.ts.description',
+    defaultMessage: 'The Token Swap feature is a way to users swap ADA and Native tokens.'
+  },
+  roadmapBodyTSItems: {
+    id: 'roadmap.body.ts.items',
+    defaultMessage: '<li>Users will be able to Swap assets in the Cardano Blockchain.</li>'+
+    '<li>Users can provide liquidity to Contract Pools Pairs.</li>'
+  },
+  roadmapBodyTE: {
+    id: 'roadmap.body.te',
+    defaultMessage: 'Trade Exchange'
+  },
+  roadmapBodyTEDescription: {
+    id: 'roadmap.body.te.description',
+    defaultMessage: 'The Trade feature is a way of users get other Native tokens and future migrated tokens to Cardano Blockchain.'
+  },
+  roadmapBodyTEItems: {
+    id: 'roadmap.body.te.items',
+    defaultMessage: '<li>Users will be able to Buy/Sell assets.</li>'
+  }
+})
 
 type Props = {
   activeTab: string
@@ -14,11 +176,11 @@ const RoadmapBody = ({ activeTab }: Props) => {
             stage="01"
             name="Ada Lovelace"
             picture="/images/ada_lovelace.jpeg"
-            description="Pioneer of Computer Science by writing the first algorithm to be execute in a computer."
+            description={f(messages.roadmapBodyLovelace)}
           />
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
-          <h1 className="mt-6 text-2xl lg:text-5xl">Scope Of Work</h1>
+          <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
           <h2 className="text-lg lg:text-2xl text-gray-700">Q3 - Q4 2021</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pt-6 pr-8 mr-8 border-r-2 border-blue-light">
@@ -31,21 +193,19 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Wallet</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyWallet)}</p>
               <p>
-                Fully feature Cardano wallet, that is the core feature of B58 Finance - DeFi platform. Our aim is to bring the best user experience for Blockchain users.
+                {f(messages.roadmapBodyWalletDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>Multi Account Management</li>
-                  <li>Send/Receive Tokens (ADA/Native Tokens)</li>
-                  <li>Savings using Cardano Staking Pools, first at our own Pools</li>
-                  <li>Voting integration with Project Catalyst Funds.</li>
+                  {f(messages.roadmapBodyWalletItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
               <p className="mb-12">
-                This stage includes the development of a Browser Extension, with web3 like integration.
-                And also a mobile Application for Android and iOS platform.
+                {f(messages.roadmapBodyWalletMore)}
               </p>
             </div>
           </div>
@@ -61,9 +221,9 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Stake pool</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodySP)}</p>
               <p className="mb-12">
-                Development of the Stake pool infrastructure, with minimun of 2 nodes relays and 1 node core.
+                {f(messages.roadmapBodySPDescription)}
               </p>
             </div>
           </div>
@@ -78,9 +238,9 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Network</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyNetwork)}</p>
               <p className="mb-12">
-                Development our first Mainnet version, which will provide the APIs the backend features.
+                {f(messages.roadmapBodyNetworkDescription)}
               </p>
             </div>
           </div>
@@ -94,11 +254,11 @@ const RoadmapBody = ({ activeTab }: Props) => {
             stage="02"
             name="Per Martin-Löf"
             picture="/images/per_martin.jpeg"
-            description="Pioneer of Computer Science by developing the philosophical foundations of type theory."
+            description={f(messages.roadmapBodyMartin)}
           />
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
-          <h1 className="mt-6 text-2xl lg:text-5xl">Scope Of Work</h1>
+          <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
           <h2 className="text-lg lg:text-2xl text-gray-700">Q1 - Q2 2022</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pr-8 pt-6 mr-8 border-r-2 border-blue-light">
@@ -111,14 +271,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Mission Transparency</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyMT)}</p>
               <p>
-                The Mission Transparency, is a feature focused on our Community Mission Driven Stake pools that will provide visibility to their Donations.
+                {f(messages.roadmapBodyMTDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>Using Cardano’s Metadata Transaction we are going provide an immutable and trackable record of their Donations.</li>
-                  <li>We also can support the payment of theses Donation through our wallet making partnership with the NGOs.</li>
+                  {f(messages.roadmapBodyMTItems,{
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>
@@ -134,13 +295,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Token Issue</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyTI)}</p>
               <p className="mb-12">
-                The Token Issue is when we release our Native Token, and integrate with the wallet and our DeFi services.
+                {f(messages.roadmapBodyTIDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>Issue our Utility token to serve as rewards and use in specific DeFi features that we’re going to develop.</li>
+                  {f(messages.roadmapBodyTIItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>
@@ -158,14 +321,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Borrowing and Lending</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyBL)}</p>
               <p className="mb-12">
-                The Borrowing/Lending feature is using the collateralised standard already in place in the crypto market.
+                {f(messages.roadmapBodyBLDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>As A Lender users can provide liquidity to contract pools, which will earn yields from the borrowing rate.</li>
-                  <li>As a Borrowing users can put a collateral asset and get another paying an interest rate over it.</li>
+                  {f(messages.roadmapBodyBLItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>
@@ -180,11 +344,11 @@ const RoadmapBody = ({ activeTab }: Props) => {
             stage="03"
             name="Gottlob Frege"
             picture="/images/gottlob_frege.jpeg"
-            description="Pioneer of Computer Science by Extending Aristotelian logic with first-order predicate calculus."
+            description={f(messages.roadmapBodyFrege)}
           />
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
-          <h1 className="mt-6 text-2xl lg:text-5xl">Scope Of Work</h1>
+          <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
           <h2 className="text-lg lg:text-2xl text-gray-700">Q3 2022</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pr-8 pt-6 mr-8 border-r-2 border-blue-light">
@@ -199,13 +363,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Buy and Sell ADA</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyBS)}</p>
               <p>
-                We're going to develop a liquidity system to provide the feature of buy/sell ADA with Fiat currency.
+                {f(messages.roadmapBodyBSDescription)}
               </p>
               <div className="m-4">
                 <ul>
-                  <li>Will also Evaluate liquidity providers available in market.</li>
+                  {f(messages.roadmapBodyBSItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>
@@ -221,14 +387,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Social Lending</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodySL)}</p>
               <p>
-                The Social lending feature that will fund Small Business through a Micro Lending Loan within a limit to be defined.
+                {f(messages.roadmapBodyBLDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>Users “Small Business” will be able to pitch their needs, and seek for fund through it.</li>
-                  <li>Each Lender will be able to have one active lending and a maximum amount in our initial offer.</li>
+                  {f(messages.roadmapBodySLItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>
@@ -246,14 +413,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Debit Card</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyDC)}</p>
               <p>
-                The Debit Card, will provide the pay with crypto feature to users.
+                {f(messages.roadmapBodyDCDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>Users can get Debit cards with automatic conversion between Fiat/Crypto when using the card.</li>
-                  <li>This feature will be provided via partnership with third party providers available in the market.</li>
+                  {f(messages.roadmapBodyDCItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>
@@ -268,11 +436,11 @@ const RoadmapBody = ({ activeTab }: Props) => {
             stage="04"
             name="Betty Holberton"
             picture="/images/betty_holberton.jpeg"
-            description="Pioneer of Computer Science by writing the first mainframe sort merge on the Univac."
+            description={f(messages.roadmapBodyHolberton)}
           />
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
-          <h1 className="mt-6 text-2xl lg:text-5xl">Scope Of Work</h1>
+          <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
           <h2 className="text-lg lg:text-2xl text-gray-700">Q4 2022</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pr-8 pt-6 mr-8 border-r-2 border-blue-light">
@@ -286,14 +454,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Token Swap</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyTS)}</p>
               <p>
-                The Token Swap feature is a way to users swap ADA and Native tokens.
+                {f(messages.roadmapBodyTSDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>Users will be able to Swap assets in the Cardano Blockchain.</li>
-                  <li>Users can provide liquidity to Contract Pools Pairs.</li>
+                  {f(messages.roadmapBodyTSItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>
@@ -309,13 +478,15 @@ const RoadmapBody = ({ activeTab }: Props) => {
               </div>
             </div>
             <div className="pt-6 mr-4">
-              <p className="text-lg mb-4">Trade Exchange</p>
+              <p className="text-lg mb-4">{f(messages.roadmapBodyTE)}</p>
               <p>
-                The Trade feature is a way of users get other Native tokens and future migrated tokens to Cardano Blockchain.
+                {f(messages.roadmapBodyTEDescription)}
               </p>
               <div className="m-4">
                 <ul >
-                  <li>Users will be able to Buy/Sell assets.</li>
+                  {f(messages.roadmapBodyTEItems, {
+                    li: (chunk) => <li>{chunk}</li>
+                  })}
                 </ul>
               </div>
             </div>

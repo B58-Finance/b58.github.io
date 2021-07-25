@@ -1,4 +1,4 @@
 import * as en from './en.json'
-import * as pt from './pt.json'
+import * as ptBR from './pt-BR.json'
 
-export { en, pt };
+export { en, ptBR };

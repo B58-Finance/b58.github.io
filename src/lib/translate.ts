@@ -4,10 +4,10 @@ import * as locales from '../compiled-locale'
 
 function loadLocaleData(locale: string) {
     switch (locale) {
-        case 'pt':
-            return locales[locale]
+        case 'pt-BR':
+            return locales.ptBR
         default:
-            return locales['en']
+            return locales.en
     }
 }
 

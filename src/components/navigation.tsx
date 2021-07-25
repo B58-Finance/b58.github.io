@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Menu from "./menu";
+import SelectTranslation from "./select-translation";
 
 const Navigation = () => {
   const [navbar, setNavbar]  = useState(false);
@@ -102,6 +103,9 @@ const Navigation = () => {
           <div className="font-bold lg:flex-grow pl-6 lg:pl-0">
             <Menu hover="text-blue-dark" onClick={() => navbarOpen ? setNavbarOpen(false) : false} />
           </div>
+        </div>
+        <div className="text-white">
+          <SelectTranslation/>
         </div>
         {/* <div>
           <a href="#" role="button" className="flex items-center py-2" onClick={handleClick}>

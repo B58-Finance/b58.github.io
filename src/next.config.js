@@ -8,7 +8,7 @@ module.exports = {
   // assetPrefix: !debug ? '/b58.github.io/' : '',
   assetPrefix: '',
   i18n: {
-    locales: ['en', 'pt', 'jp', 'cn'],
+    locales: ['en', 'pt-BR', 'jp', 'cn'],
     defaultLocale: 'en',
   },
 }
