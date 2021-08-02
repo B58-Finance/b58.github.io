@@ -1,6 +1,23 @@
 import Container from './container'
 import NavigationFooter from './navigation-footer'
 import { EXAMPLE_PATH } from '../lib/constants'
+import { defineMessages } from 'react-intl'
+import f from "../lib/translate";
+
+const messages = defineMessages({
+  footerSocial: {
+    id: 'footer.social',
+    defaultMessage: 'Social Medias'
+  },
+  footerBtnDownload: {
+    id: 'footer.btn.download',
+    defaultMessage: 'Available Soon'
+  },
+  footerContact: {
+    id: 'footer.contact',
+    defaultMessage: 'Contact Us'
+  }
+})
 
 const Footer = () => {
   return (
@@ -11,7 +28,7 @@ const Footer = () => {
             <NavigationFooter />
           </div>
           <div className="flex flex-col mb-6 lg:mb-0 lg:ml-10 items-start">
-            <p className="text-md mb-4 text-center lg:text-left w-full lg:w-auto">Social Medias</p>
+            <p className="text-md mb-4 text-center lg:text-left w-full lg:w-auto">{f(messages.footerSocial)}</p>
             <div className="flex flex-row lg:flex-col text-center lg:text-left">
               <a href="https://twitter.com/B58Finance" target="_blank" className="hover:text-blue-light sm:p-6 lg:p-0">
                 <svg role="img" className="fill-current inline-block h-12 w-12" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
@@ -53,10 +70,10 @@ const Footer = () => {
           <div className="flex flex-grow justify-end items-center lg:pl-4 lg:w-1/2">
             <div className="flex flex-col lg:items-end lg:mr-10">
               <a href="#" role="button" className="border-2 border-blue-light bg-blue-light hover:border-white hover:shadow-lg hover:bg-white hover:text-blue-light text-sm text-white uppercase font-bold py-4 px-6 rounded-md">
-                Available Soon
+                {f(messages.footerBtnDownload)}
               </a>
               <p className="text-lg mt-10">
-                Contact Us <br /> <a href="mailto:contact@b58.finance" className="text-gray-500 hover:text-blue-light">contact@b58.finance</a>
+                {f(messages.footerContact)} <br /> <a href="mailto:contact@b58.finance" className="text-gray-500 hover:text-blue-light">contact@b58.finance</a>
               </p>
             </div>
           </div>

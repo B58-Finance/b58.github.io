@@ -1,5 +1,36 @@
 import React, { useState, useEffect, useRef } from "react";
 import RoadmapBody from "./roadmap-body"
+import { defineMessages } from 'react-intl'
+import f from "../lib/translate";
+
+const messages = defineMessages({
+  roadmapTitle: {
+    id: 'roadmap.title',
+    defaultMessage: 'Our Roadmap to the future of finance'
+  },
+  roadmapBody: {
+    id: 'roadmap.body',
+    defaultMessage: 'Here you can find our roadmap of work in progress and also planned work.'+
+    '{br}'+
+    'Our phases are inspired by pioneers of computer science, which without their work it wouldn\'t be possible today.'
+  },
+  roadmapStage1: {
+    id: 'roadmap.stage1',
+    defaultMessage: 'Foundation'
+  },
+  roadmapStage2: {
+    id: 'roadmap.stage2',
+    defaultMessage: 'Smart Contracts'
+  },
+  roadmapStage3: {
+    id: 'roadmap.stage3',
+    defaultMessage: 'Adoption'
+  },
+  roadmapStage4: {
+    id: 'roadmap.stage4',
+    defaultMessage: 'Exchange'
+  }
+})
 
 const Roadmap = () => {
   const [activeTab, setActiveTab] = useState("lovelace");
@@ -9,14 +40,14 @@ const Roadmap = () => {
       <div className="lg:mt-6 grid grid-cols-1 md:grid-cols-2 md:col-gap-6 row-gap-0 md:row-gap-6 lg:mb-10">
         <div className="flex flex-wrap content-center lg:mr-10 p-6">
           <h1 className="text-3xl lg:text-6xl font-medium leading-tight">
-            Our Roadmap to the future of finance
+            {f(messages.roadmapTitle)}
           </h1>
         </div>
         <div className="lg:ml-6 p-6 pt-2 lg:pt-6">
           <p className="text-base text-justify lg:text-left lg:mr-8">
-            Here you can find our roadmap of work in progress and also planned work.
-            <br /><br />
-            Our phases are inspired by pioneers of computer science, which without their work it wouldn't be possible today.
+            {f(messages.roadmapBody, {
+              br: <><br /><br /></>
+            })}
           </p>
         </div>
       </div>
@@ -34,7 +65,7 @@ const Roadmap = () => {
             <img src="/images/ada_lovelace.jpeg" className="w-40 h-40 inline-block object-cover shadow-small dark:shadow-smallDark hover:shadow-medium dark:hover:shadow-mediumDark transition-shadow duration-200" />
             <div className="text-left mt-2 mb-2 ml-10">
               <p className="font-bold">Lovelace</p>
-              <small>Foundation</small>
+              <small>{f(messages.roadmapStage1)}</small>
             </div>
           </div>
         </div>
@@ -50,7 +81,7 @@ const Roadmap = () => {
             <img src="/images/per_martin.jpeg" className="w-40 h-40 inline-block object-cover shadow-small dark:shadow-smallDark hover:shadow-medium dark:hover:shadow-mediumDark transition-shadow duration-200" />
             <div className="text-left mt-2 mb-2 ml-10">
               <p className="font-bold">Martin-Löf</p>
-              <small>Smart Contracts</small>
+              <small>{f(messages.roadmapStage2)}</small>
             </div>
           </div>
         </div>
@@ -66,7 +97,7 @@ const Roadmap = () => {
             <img src="/images/gottlob_frege.jpeg" className="w-40 h-40 inline-block object-cover shadow-small dark:shadow-smallDark hover:shadow-medium dark:hover:shadow-mediumDark transition-shadow duration-200" />
             <div className="text-left mt-2 mb-2 ml-10">
               <p className="font-bold">Frege</p>
-              <small>Adoption</small>
+              <small>{f(messages.roadmapStage3)}</small>
             </div>
           </div>
         </div>
@@ -82,7 +113,7 @@ const Roadmap = () => {
             <img src="/images/betty_holberton.jpeg" className="w-40 h-40 inline-block object-cover shadow-small dark:shadow-smallDark hover:shadow-medium dark:hover:shadow-mediumDark transition-shadow duration-200" />
             <div className="text-left mt-2 mb-2 ml-10">
               <p className="font-bold">Holberton</p>
-              <small>Exchange</small>
+              <small>{f(messages.roadmapStage4)}</small>
             </div>
           </div>
         </div>

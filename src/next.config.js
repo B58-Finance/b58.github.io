@@ -7,4 +7,8 @@ const debug = process.env.NODE_ENV !== 'production'
 module.exports = {
   // assetPrefix: !debug ? '/b58.github.io/' : '',
   assetPrefix: '',
+  i18n: {
+    locales: ['en', 'pt-BR', 'jp', 'cn'],
+    defaultLocale: 'en',
+  },
 }

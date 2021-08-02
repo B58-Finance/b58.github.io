@@ -1,4 +1,38 @@
 import { MouseEventHandler } from "react"
+import { defineMessages } from 'react-intl'
+import f, { setLanguage } from "../lib/translate";
+
+
+const messages = defineMessages({
+  about: {
+    id: 'menu.about',
+    defaultMessage: 'About'
+  },
+  wallet: {
+    id: 'menu.wallet',
+    defaultMessage: 'Wallet'
+  },
+  defi: {
+    id: 'menu.defi',
+    defaultMessage: 'DeFi'
+  },
+  team: {
+    id: 'menu.team',
+    defaultMessage: 'Team'
+  },
+  roadmap: {
+    id: 'menu.roadmap',
+    defaultMessage: 'Roadmap'
+  },
+  blog: {
+    id: 'menu.blog',
+    defaultMessage: 'Blog'
+  },
+  whitepaper: {
+    id: 'menu.whitepaper',
+    defaultMessage: 'Whitepaper'
+  }
+})
 
 type Props = {
   hover: string
@@ -9,25 +43,25 @@ const Menu = ( {hover, onClick}: Props ) => {
   return (
     <>
     <a href="#about" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
-      About
+      {f(messages.about)}
     </a>
     <a href="#wallet" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
-      Wallet
+      {f(messages.wallet)}
     </a>
     <a href="#defi" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
-      DeFi
+      {f(messages.defi)}
     </a>
     <a href="#team" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
-      Team
+      {f(messages.team)}
     </a>
     <a href="#roadmap" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
-      Roadmap
+      {f(messages.roadmap)}
     </a>
     <a href="https://b58finance.medium.com/" target="_blank" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
-      Blog
+      {f(messages.blog)}
     </a>
     <a href="/assets/docs/whitepaper_v1_062021.pdf" target="_blank" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
-      Whitepaper
+      {f(messages.whitepaper)}
     </a>
     </>
   )
