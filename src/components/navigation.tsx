@@ -89,6 +89,11 @@ const Navigation = () => {
             <img src="/images/logo.svg" alt="B58 Finance Logo" className={ navbar ? "w-8 md:w-10 float-left transition duration-500 transform" : "w-8 md:w-16 float-left transition duration-500 transform"} />
           </a>
         </div>
+        <div className={"flex-grow" + (navbarOpen ? " block" : " hidden")}>
+          <div className="text-right text-white">
+            <SelectTranslation/>
+          </div>
+        </div>
         <div className="block lg:hidden">
           <button className="flex items-center py-2"
             onClick={() => setNavbarOpen(!navbarOpen)}
@@ -102,9 +107,9 @@ const Navigation = () => {
               (navbarOpen ? " flex" : " hidden") }>
           <div className="font-bold lg:flex-grow pl-6 lg:pl-0">
             <Menu hover="text-blue-dark" onClick={() => navbarOpen ? setNavbarOpen(false) : false} />
-          </div>
+          </div>          
         </div>
-        <div className="text-white">
+        <div className="text-white hidden lg:block">
           <SelectTranslation/>
         </div>
         {/* <div>
