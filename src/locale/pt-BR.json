@@ -1,0 +1,230 @@
+{
+  "about.body": {
+    "defaultMessage": "<b>B58 Finance</b> é uma carteira de multi recursos descentralizada construída sobre o Cardano Blockchain. Isso proporciona aos nossos serviços a infra-estrutura operacional de um sistema financeiro.{br}E nos permite disponibilizar recursos para que você seja seu próprio banco, usando a comunicação Peer-to-Peer sem necessidade de intermediários.{br}Nosso objetivo é trazer a próxima geração de carteiras digital para você e fornecer a mesma experiência disponível hoje, usando bancos digitais tradicionais e remover a complexidade do mundo blockchain."
+  },
+  "about.title": {
+    "defaultMessage": "Sobre o B58 Finance ser desenvolvido usando Cardano"
+  },
+  "artavatar.img.description": {
+    "defaultMessage": "Arte gerada por IA"
+  },
+  "defi.abbr": {
+    "defaultMessage": "Non-Fungible Tokens"
+  },
+  "defi.body": {
+    "defaultMessage": "Nosso <babbr>DeFi</babbr> (Finanças descentralizadas) permite que você se envolva com outras pessoas na comunidade, fornecendo liquidez para empréstimos, enquanto você ganha rendimentos em seus cripto ativos.{br}Você também pode promover um mundo aberto onde você pode usar o nosso serviço <b>Missão Transparência</b> para doar e registrar na blockchain.{br}Ainda ajuda as pequenas empresas a retirarem as suas ideias ou agricultores em locais remotos que precisam de um micro-empréstimo para aumentar a sua produção. Tudo isso usando nosso <b>Empréstimo Social</b> com base em nosso algoritmo de Prova Social."
+  },
+  "defi.title": {
+    "defaultMessage": "Tudo que você pode fazer com finanças descentralizadas"
+  },
+  "footer.btn.download": {
+    "defaultMessage": "Em breve"
+  },
+  "footer.contact": {
+    "defaultMessage": "Contato"
+  },
+  "footer.social": {
+    "defaultMessage": "Redes Sociais"
+  },
+  "home.body": {
+    "defaultMessage": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira B58 com serviços DeFi usando Cardano, você tem controle de suas finanças.{br}Obtenha acesso a pagamentos globais onde as transações são sem fronteiras e de baixo custo, podendo ser usado entre amigos e familiares ou com a sua empresa.{br}Construa sua riqueza ganhando recompensas na sua poupança. Ao mesmo tempo, você estará livre para usar o seu saldo sempre que precisar.{br}"
+  },
+  "home.btn.download": {
+    "defaultMessage": "Em breve"
+  },
+  "home.btn.whitepaper": {
+    "defaultMessage": "Leia a Especificação"
+  },
+  "home.title": {
+    "defaultMessage": "Faça parte de um mundo financeiro aberto, seguro e global"
+  },
+  "menu.about": {
+    "defaultMessage": "Sobre"
+  },
+  "menu.blog": {
+    "defaultMessage": "Blog"
+  },
+  "menu.defi": {
+    "defaultMessage": "DeFi"
+  },
+  "menu.roadmap": {
+    "defaultMessage": "Projeto"
+  },
+  "menu.team": {
+    "defaultMessage": "Equipe"
+  },
+  "menu.wallet": {
+    "defaultMessage": "Carteira"
+  },
+  "menu.whitepaper": {
+    "defaultMessage": "Especificação"
+  },
+  "page.description": {
+    "defaultMessage": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira B58 com serviços DeFi usando Cardano, você tem controle de suas finanças."
+  },
+  "page.title": {
+    "defaultMessage": "B58 Finance - Cripto Carteira Multifuncional com serviços DeFi usando Cardano"
+  },
+  "roadmap.body": {
+    "defaultMessage": "Aqui você pode encontrar mais detalhes sobre o nosso projeto, assim como o andamento e também o que temos planejado.{br}Nossas fases são inspiradas por pioneiros da ciência da computação, que sem o trabalho dele não seria possível hoje."
+  },
+  "roadmap.body.bl": {
+    "defaultMessage": "Cripto Empréstimos"
+  },
+  "roadmap.body.bl.description": {
+    "defaultMessage": "O recurso de Cripto Empréstimos usará o padrão colateralizado já existente no mercado cripto."
+  },
+  "roadmap.body.bl.items": {
+    "defaultMessage": "<li>Como um Financiador usuários podem fornecer liquidez a contratos inteligentes, que ganharão rendimentos com a taxa de empréstimo.</li><li>Como usuários de Empréstimo podem colocar um ativo de garantia e obter outro pagando uma taxa de juros sobre ele.</li>"
+  },
+  "roadmap.body.bs": {
+    "defaultMessage": "Comprar e Vender ADA"
+  },
+  "roadmap.body.bs.description": {
+    "defaultMessage": "Nós vamos desenvolver um sistema de liquidez para fornecer o recurso de compra/venda ADA com moeda corrente."
+  },
+  "roadmap.body.bs.items": {
+    "defaultMessage": "<li>Também vamos avaliar os provedores de liquidez disponíveis no mercado.</li>"
+  },
+  "roadmap.body.dc": {
+    "defaultMessage": "Cartão de Débito"
+  },
+  "roadmap.body.dc.description": {
+    "defaultMessage": "O Cartão de Débito, fornecerá aos usuários a possibilidade de pagamentos com cripto."
+  },
+  "roadmap.body.dc.items": {
+    "defaultMessage": "<li>Os usuários podem obter cartões de débito com conversão automática entre Moeda Corrente/Crypto ao usar o cartão.</li><li>Este recurso será fornecido via parceria com terceiros disponíveis no mercado.</li>"
+  },
+  "roadmap.body.frege": {
+    "defaultMessage": "Pioneiro da Ciência da Computação Estendendo a lógica aristoteliana com cálculo de primeira ordem."
+  },
+  "roadmap.body.holberton": {
+    "defaultMessage": "Pioneiro da Ciência da Computação escrevendo a primeira fusão de ordenação para mainframe no Univac."
+  },
+  "roadmap.body.lovelace": {
+    "defaultMessage": "Pioneiro da Ciência da Computação escrevendo o primeiro algoritmo a ser executado em um computador."
+  },
+  "roadmap.body.martin": {
+    "defaultMessage": "Pioneiro da Ciência da Computação desenvolvendo as bases filosóficas da teoria de tipo."
+  },
+  "roadmap.body.mt": {
+    "defaultMessage": "Missão Transparência"
+  },
+  "roadmap.body.mt.description": {
+    "defaultMessage": "A Missão Transparência é um serviço focado nas Stake pools mantidas pela comunidade que proporcionarão visibilidade das suas Doações realizadas para as causas."
+  },
+  "roadmap.body.mt.items": {
+    "defaultMessage": "<li>Usando Cardano transação de metadados forneceremos um registro imutável e rastreável de suas doações.</li><li>Também podemos apoiar o pagamento das Doações por meio da nossa carteira fazendo parceria com as OMGs.</li>"
+  },
+  "roadmap.body.network": {
+    "defaultMessage": "Rede"
+  },
+  "roadmap.body.network.description": {
+    "defaultMessage": "Desenvolvimento da nossa rede Mainnet, que fornecerá as APIs com as funcionalidades do backend."
+  },
+  "roadmap.body.scope": {
+    "defaultMessage": "Escopo de trabalho"
+  },
+  "roadmap.body.sl": {
+    "defaultMessage": "Empréstimo Social"
+  },
+  "roadmap.body.sl.description": {
+    "defaultMessage": "O serviço de empréstimo social irá financiar as pequenas empresas através de um Micro-Empréstimo dentro de um limite a ser definido."
+  },
+  "roadmap.body.sl.items": {
+    "defaultMessage": "<li>Os usuários \"Pequenas Empresas\" poderam criar um perfil aprensentado suas necessidades e procurar financiadores através dele.</li><li>Cada Financiador poderá ter um empréstimo ativo e um valor máximo em nossa oferta inicial.</li>"
+  },
+  "roadmap.body.sp": {
+    "defaultMessage": "Stake Pool"
+  },
+  "roadmap.body.sp.description": {
+    "defaultMessage": "Desenvolvimento da infraestrutura para a Stake Pool, com 2 servidores de replica e 1 servidor principal."
+  },
+  "roadmap.body.te": {
+    "defaultMessage": "Trade Exchange"
+  },
+  "roadmap.body.te.description": {
+    "defaultMessage": "O serviço de Trade Exchange é uma maneira de os usuários obterem outros tokens nativos e futuros migrados para Cardano Blockchain."
+  },
+  "roadmap.body.te.items": {
+    "defaultMessage": "<li>Os usuários poderão comprar/vender tokens.</li>"
+  },
+  "roadmap.body.ti": {
+    "defaultMessage": "Emissão de Token"
+  },
+  "roadmap.body.ti.description": {
+    "defaultMessage": "A Emisão de Token é quando lançamos nosso Token Nativo e integramos com a carteira e nossos serviços de DeFi."
+  },
+  "roadmap.body.ti.items": {
+    "defaultMessage": "<li>Emissão do nosso token de utilidade para servir como recompensas e usar em recursos específicos de DeFi que vamos desenvolver.</li>"
+  },
+  "roadmap.body.ts": {
+    "defaultMessage": "Troca de Token"
+  },
+  "roadmap.body.ts.description": {
+    "defaultMessage": "O serviço de troca de token é uma maneira de usuários trocarem o ADA e tokens nativos."
+  },
+  "roadmap.body.ts.items": {
+    "defaultMessage": "<li>Os usuários poderão trocar ativos no Cardano Blockchain.</li><li>Usuários podem fornecer liquidez para Contratos inteligentes</li>"
+  },
+  "roadmap.body.wallet": {
+    "defaultMessage": "Carteira"
+  },
+  "roadmap.body.wallet.description": {
+    "defaultMessage": "Carteira completa para o Cardano Blockchain, essa é a principal funcionalidade do B58 Finance - DeFi plataforma. Nosso objetivo é trazer a melhor experiência para usuários de Blockchain."
+  },
+  "roadmap.body.wallet.items": {
+    "defaultMessage": "<li>Gerenciamento de múltiplas contas</li><li>Enviar/Receber Tokens (ADA/Tokens Nativos)</li><li>Poupança usando Cardano Staking Pools, primeiramente em nossos próprios pools</li><li>Integração com o sistema de votação project Catalyst.</li>"
+  },
+  "roadmap.body.wallet.more": {
+    "defaultMessage": "Essa etapa inclui o desenvolvimento de uma extensão de navegador, com web3 como integração. E também um aplicativo móvel para a plataforma Android e iOS."
+  },
+  "roadmap.stage1": {
+    "defaultMessage": "Fundação"
+  },
+  "roadmap.stage2": {
+    "defaultMessage": "Contratos Inteligentes"
+  },
+  "roadmap.stage3": {
+    "defaultMessage": "Adoção"
+  },
+  "roadmap.stage4": {
+    "defaultMessage": "Exchange"
+  },
+  "roadmap.title": {
+    "defaultMessage": "Nosso projeto para o futuro financeiro"
+  },
+  "team.body": {
+    "defaultMessage": "A nossa equipe está contruindo essa plataforma para nós mesmos usarmos, o que resulta em um produto de alta qualidade para você também usar.{br}Estamos comprometidos em entregar o melhor em desenvolvimento de software, trazendo uma grande esperiência em Enterprise Software, Cloud Engineer e Cyber Security."
+  },
+  "team.description.flavio": {
+    "defaultMessage": "20 anos de experiência em Desenvolvimento de Backend especializado em desenvolver ferramentas e integrações empresariais no ecossistema SAP, focado em Cadeia de Suprimentos, Fabricação e Finanças. Como consultor, trabalhou com empresas multinacionais e automobilisticas como a Fiat e a Chrysler."
+  },
+  "team.description.francis": {
+    "defaultMessage": "20 anos de experiência no Desenvolvimento de Software, trabalhando com uma variedade de linguagens. E fazendo parte de projetos na América do Sul como consultor, vivendo e ajudando a desenvolver o Sistema de Segurança Social de Angola na África, e trabalhando como Engenheiro de Cyber Security em um Banco Global."
+  },
+  "team.description.gabriel": {
+    "defaultMessage": "11 anos de experiência em Desenvolvimento de Software e especialização em dispositivos móveis oferecendo soluções multiplataformas, trabalhando desenvolvendo sistemas de ERP personalizados para o mercado brasileiro e atualmente desenvolvendo uma solução para iOS e Android Mobile para empresas de seguros de saúde nos EUA."
+  },
+  "team.role.advisor": {
+    "defaultMessage": "Conselheiro"
+  },
+  "team.role.cofounder": {
+    "defaultMessage": "Co-Fundador"
+  },
+  "team.role.developer": {
+    "defaultMessage": "Desenvolvedor"
+  },
+  "team.title": {
+    "defaultMessage": "Nós somos a Equipe que está desenvolvendo essa plataforma para você"
+  },
+  "wallet.abbr": {
+    "defaultMessage": "Non-Fungible Tokens"
+  },
+  "wallet.body": {
+    "defaultMessage": "Nossa carteira é completa com <b>Cardano ADA</b> sendo nossa moeda principal, mas também permite que você transfira tokens nativos disponíveis na plataforma.{br}Você pode receber pagamentos através do nosso <b>Cartão QR Code</b> personalizado onde você pode se expressar selecionando um dos temas disponíveis.{br}Também fornecemos uma conta de poupança pronta e fácil de usar onde você ganha recompensas e pode resgata-las a cada 5 dias ou construir seu plano de aposentadoria com ele.{br}Uma outra coisa de que você vai gostar é nosso gerenciador de <babbr>NTF</babbr> (Non-Fungible Tokens)."
+  },
+  "wallet.title": {
+    "defaultMessage": "Uma Carteira que é simples e fácil de usar"
+  }
+}
