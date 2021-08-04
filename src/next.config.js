@@ -11,4 +11,5 @@ module.exports = {
     locales: ['en', 'pt-BR', 'jp', 'cn'],
     defaultLocale: 'en',
   },
+  target: 'serverless',
 }
