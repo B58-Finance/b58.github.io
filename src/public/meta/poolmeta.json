@@ -1,8 +1,8 @@
 {
-    "name": "RaceX ADA Stake Pool",
-    "ticker": "RACEX",
-    "description": "Inspired by high-performance cars, our stake pool is secure, fast, high available and cloud native.",
-    "homepage": "https://racexpool.com/",
+    "name": "B58 Finance - Stake Pool",
+    "ticker": "B58",
+    "description": "B58 is a DeFi wallet on Cardano, and this pool is to support the users and also provide stable rewards.",
+    "homepage": "https://b58.finance",
     "nonce": "1613501163",
-    "extended": "https://racexpool.com/meta/extended-poolmeta.json"
+    "extended": "https://b58.finance/meta/extended-poolmeta.json"
   }
