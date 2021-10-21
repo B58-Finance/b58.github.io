@@ -266,7 +266,7 @@
       "children": [
         {
           "type": 0,
-          "value": "As A Lender users can provide liquidity to contract pools, which will earn yields from the borrowing rate."
+          "value": "As a lender, users can provide liquidity to contract pools, which will earn yields from the borrowing rate."
         }
       ],
       "type": 8,
@@ -276,7 +276,7 @@
       "children": [
         {
           "type": 0,
-          "value": "As a Borrowing users can put a collateral asset and get another paying an interest rate over it."
+          "value": "As a borrower, users can borrow against collateral assets, by paying an interest rate over the period of the borrowing of assets."
         }
       ],
       "type": 8,

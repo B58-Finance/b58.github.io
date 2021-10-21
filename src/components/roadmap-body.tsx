@@ -86,8 +86,8 @@ const messages = defineMessages({
   },
   roadmapBodyBLItems: {
     id: 'roadmap.body.bl.items',
-    defaultMessage: '<li>As A Lender users can provide liquidity to contract pools, which will earn yields from the borrowing rate.</li>'+
-    '<li>As a Borrowing users can put a collateral asset and get another paying an interest rate over it.</li>'
+    defaultMessage: '<li>As a lender, users can provide liquidity to contract pools, which will earn yields from the borrowing rate.</li>'+
+    '<li>As a borrower, users can borrow against collateral assets, by paying an interest rate over the period of the borrowing of assets.</li>'
   },
   roadmapBodyFrege: {
     id: 'roadmap.body.frege',
