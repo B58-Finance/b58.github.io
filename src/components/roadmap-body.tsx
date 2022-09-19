@@ -181,7 +181,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
           <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
-          <h2 className="text-lg lg:text-2xl text-gray-700">Q3 - Q4 2021</h2>
+          <h2 className="text-lg lg:text-2xl text-gray-700">Q3 - Q4 2022</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pt-6 pr-8 mr-8 border-r-2 border-blue-light">
               <div className="relative">
@@ -259,7 +259,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
           <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
-          <h2 className="text-lg lg:text-2xl text-gray-700">Q1 - Q2 2022</h2>
+          <h2 className="text-lg lg:text-2xl text-gray-700">Q1 - Q2 2023</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pr-8 pt-6 mr-8 border-r-2 border-blue-light">
               <div className="relative">
@@ -349,7 +349,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
           <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
-          <h2 className="text-lg lg:text-2xl text-gray-700">Q3 2022</h2>
+          <h2 className="text-lg lg:text-2xl text-gray-700">Q3 2023</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pr-8 pt-6 mr-8 border-r-2 border-blue-light">
               <div className="relative">
@@ -441,7 +441,7 @@ const RoadmapBody = ({ activeTab }: Props) => {
         </div>
         <div className="w-full lg:w-4/6 lg:ml-6 p-6 pt-0 lg:p-0">
           <h1 className="mt-6 text-2xl lg:text-5xl">{f(messages.roadmapBodyScope)}</h1>
-          <h2 className="text-lg lg:text-2xl text-gray-700">Q4 2022</h2>
+          <h2 className="text-lg lg:text-2xl text-gray-700">Q4 2023</h2>
           <div className="flex mt-4 lg:mt-20">
             <div className="pr-8 pt-6 mr-8 border-r-2 border-blue-light">
               <div className="relative">

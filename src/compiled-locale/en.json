@@ -4,7 +4,7 @@
       "children": [
         {
           "type": 0,
-          "value": "B58 Finance"
+          "value": "Begin Wallet"
         }
       ],
       "type": 8,
@@ -34,7 +34,7 @@
   "about.title": [
     {
       "type": 0,
-      "value": "About B58 Finance be powered by Cardano"
+      "value": "About Begin Wallet be powered by Cardano"
     }
   ],
   "artavatar.img.description": [
@@ -122,7 +122,7 @@
   "footer.btn.download": [
     {
       "type": 0,
-      "value": "Available Soon"
+      "value": "Begin Wallet"
     }
   ],
   "footer.contact": [
@@ -140,23 +140,7 @@
   "home.body": [
     {
       "type": 0,
-      "value": "The easiest way of being part of a decentralized financial world. Where everyone is welcome on B58 DeFi Wallet on Cardano, that you are in control of your finances."
-    },
-    {
-      "type": 1,
-      "value": "br"
-    },
-    {
-      "type": 0,
-      "value": "Get access to global payments where transactions are borderless and low fees using it with friends and family or your business."
-    },
-    {
-      "type": 1,
-      "value": "br"
-    },
-    {
-      "type": 0,
-      "value": "Build up your wealth by earning rewards on your savings. At the same time, you're free to use your balance whenever you need."
+      "value": "Send, receive, earn, and browse DApps safely with Begin powered by the Cardano Blockchain."
     },
     {
       "type": 1,
@@ -166,7 +150,7 @@
   "home.btn.download": [
     {
       "type": 0,
-      "value": "Available Soon"
+      "value": "Begin Wallet"
     }
   ],
   "home.btn.whitepaper": [
@@ -178,7 +162,7 @@
   "home.title": [
     {
       "type": 0,
-      "value": "Be part of an open, secure and global financial world"
+      "value": "It’s time to begin your web3 journey"
     }
   ],
   "menu.about": [
@@ -226,7 +210,7 @@
   "page.description": [
     {
       "type": 0,
-      "value": "The easiest way of being part of a decentralized financial world. Where everyone is welcome on B58 DeFi Wallet on Cardano, that you are in control of your finances."
+      "value": "The easiest way of being part of a decentralized financial world. Where everyone is welcome on Begin Wallet on Cardano, that you are in control of your finances."
     }
   ],
   "page.title": [
@@ -652,19 +636,25 @@
   "team.description.flavio": [
     {
       "type": 0,
-      "value": "20 years of experience in Backend Development specialized in developing Enterprise tools and integrations in SAP ecosystem, focused on Supply Chain, Manufacturing and Financial. As a consultant have worked with multinational companies and automakers such as Fiat and Chrysler."
+      "value": "More than 20 years of experience in Backend Development, working in Enterprise tools for Manufacturing and Financial."
     }
   ],
   "team.description.francis": [
     {
       "type": 0,
-      "value": "20 years of experience in Software Development, working with a variety of languages. And being part of projects in South America as consultant, living and helping to develop the Social Security System of Angola Africa, and working as a Cyber Security Engineer at a Global Bank."
+      "value": "More than 20 years of experience in Software Development, working in projects in Africa, Americas and Europe."
     }
   ],
   "team.description.gabriel": [
     {
       "type": 0,
-      "value": "11 years of experience in Software Development and Mobile specialist delivering cross-platform solutions, working developing custom ERP Systems for the Brazilian Market, and currently developing a iOS and Android Mobile solution for Health Insurance companies in the USA."
+      "value": "More than 11 years of experience in Software Development and Mobile specialist delivering cross-platform solutions."
+    }
+  ],
+  "team.description.nick": [
+    {
+      "type": 0,
+      "value": "UX Designer with a background in Motion Design and Graphic Design, and Crypto enthusiast."
     }
   ],
   "team.role.advisor": [
@@ -679,6 +669,12 @@
       "value": "Co-Founder"
     }
   ],
+  "team.role.designer": [
+    {
+      "type": 0,
+      "value": "Designer"
+    }
+  ],
   "team.role.developer": [
     {
       "type": 0,
@@ -688,7 +684,7 @@
   "team.title": [
     {
       "type": 0,
-      "value": "We are the Team that is building it for you"
+      "value": "We are the Team building it for you"
     }
   ],
   "wallet.abbr": [

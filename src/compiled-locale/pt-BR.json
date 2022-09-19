@@ -4,7 +4,7 @@
       "children": [
         {
           "type": 0,
-          "value": "B58 Finance"
+          "value": "Begin"
         }
       ],
       "type": 8,
@@ -34,7 +34,7 @@
   "about.title": [
     {
       "type": 0,
-      "value": "Sobre o B58 Finance ser desenvolvido usando Cardano"
+      "value": "Sobre o Begin Wallet ser desenvolvido usando Cardano"
     }
   ],
   "artavatar.img.description": [
@@ -122,7 +122,7 @@
   "footer.btn.download": [
     {
       "type": 0,
-      "value": "Em breve"
+      "value": "Carteira Begin"
     }
   ],
   "footer.contact": [
@@ -140,23 +140,7 @@
   "home.body": [
     {
       "type": 0,
-      "value": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira B58 com serviços DeFi usando Cardano, você tem controle de suas finanças."
-    },
-    {
-      "type": 1,
-      "value": "br"
-    },
-    {
-      "type": 0,
-      "value": "Obtenha acesso a pagamentos globais onde as transações são sem fronteiras e de baixo custo, podendo ser usado entre amigos e familiares ou com a sua empresa."
-    },
-    {
-      "type": 1,
-      "value": "br"
-    },
-    {
-      "type": 0,
-      "value": "Construa sua riqueza ganhando recompensas na sua poupança. Ao mesmo tempo, você estará livre para usar o seu saldo sempre que precisar."
+      "value": "Enviar, receber, ganhar e navegar pelos DApps com segurança com começo pelo Cardano Blockchain."
     },
     {
       "type": 1,
@@ -166,7 +150,7 @@
   "home.btn.download": [
     {
       "type": 0,
-      "value": "Em breve"
+      "value": "Carteira Begin"
     }
   ],
   "home.btn.whitepaper": [
@@ -178,7 +162,7 @@
   "home.title": [
     {
       "type": 0,
-      "value": "Faça parte de um mundo financeiro aberto, seguro e global"
+      "value": "Está na hora de begin sua jornada web3"
     }
   ],
   "menu.about": [
@@ -226,7 +210,7 @@
   "page.description": [
     {
       "type": 0,
-      "value": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira B58 com serviços DeFi usando Cardano, você tem controle de suas finanças."
+      "value": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira Begin com serviços DeFi usando Cardano, você tem controle de suas finanças."
     }
   ],
   "page.title": [
@@ -652,19 +636,25 @@
   "team.description.flavio": [
     {
       "type": 0,
-      "value": "20 anos de experiência em Desenvolvimento de Backend especializado em desenvolver ferramentas e integrações empresariais no ecossistema SAP, focado em Cadeia de Suprimentos, Fabricação e Finanças. Como consultor, trabalhou com empresas multinacionais e automobilisticas como a Fiat e a Chrysler."
+      "value": "Mais de 20 anos de experiência em Desenvolvimento de Backend, trabalhando em ferramentas empresariais para Fabricação e Finanças."
     }
   ],
   "team.description.francis": [
     {
       "type": 0,
-      "value": "20 anos de experiência no Desenvolvimento de Software, trabalhando com uma variedade de linguagens. E fazendo parte de projetos na América do Sul como consultor, vivendo e ajudando a desenvolver o Sistema de Segurança Social de Angola na África, e trabalhando como Engenheiro de Cyber Security em um Banco Global."
+      "value": "Mais de 20 anos de experiência no domínio do desenvolvimento de software, trabalhando em projectos na África, Américas e Europa."
     }
   ],
   "team.description.gabriel": [
     {
       "type": 0,
-      "value": "11 anos de experiência em Desenvolvimento de Software e especialização em dispositivos móveis oferecendo soluções multiplataformas, trabalhando desenvolvendo sistemas de ERP personalizados para o mercado brasileiro e atualmente desenvolvendo uma solução para iOS e Android Mobile para empresas de seguros de saúde nos EUA."
+      "value": "Mais de 11 anos de experiência em Desenvolvimento de Software e Especialização em Mobile, oferecendo soluções multiplataforma."
+    }
+  ],
+  "team.description.nick": [
+    {
+      "type": 0,
+      "value": "UX Designer com experiência em Motion Design e Design Gráfico e entusiasta Crypto."
     }
   ],
   "team.role.advisor": [
@@ -677,6 +667,12 @@
     {
       "type": 0,
       "value": "Co-Fundador"
+    }
+  ],
+  "team.role.designer": [
+    {
+      "type": 0,
+      "value": "Designer"
     }
   ],
   "team.role.developer": [

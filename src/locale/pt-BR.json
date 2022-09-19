@@ -1,9 +1,9 @@
 {
   "about.body": {
-    "defaultMessage": "<b>B58 Finance</b> é uma carteira de multi recursos descentralizada construída sobre o Cardano Blockchain. Isso proporciona aos nossos serviços a infra-estrutura operacional de um sistema financeiro.{br}E nos permite disponibilizar recursos para que você seja seu próprio banco, usando a comunicação Peer-to-Peer sem necessidade de intermediários.{br}Nosso objetivo é trazer a próxima geração de carteiras digital para você e fornecer a mesma experiência disponível hoje, usando bancos digitais tradicionais e remover a complexidade do mundo blockchain."
+    "defaultMessage": "<b>Begin</b> é uma carteira de multi recursos descentralizada construída sobre o Cardano Blockchain. Isso proporciona aos nossos serviços a infra-estrutura operacional de um sistema financeiro.{br}E nos permite disponibilizar recursos para que você seja seu próprio banco, usando a comunicação Peer-to-Peer sem necessidade de intermediários.{br}Nosso objetivo é trazer a próxima geração de carteiras digital para você e fornecer a mesma experiência disponível hoje, usando bancos digitais tradicionais e remover a complexidade do mundo blockchain."
   },
   "about.title": {
-    "defaultMessage": "Sobre o B58 Finance ser desenvolvido usando Cardano"
+    "defaultMessage": "Sobre o Begin Wallet ser desenvolvido usando Cardano"
   },
   "artavatar.img.description": {
     "defaultMessage": "Arte gerada por IA"
@@ -18,7 +18,7 @@
     "defaultMessage": "Tudo que você pode fazer com finanças descentralizadas"
   },
   "footer.btn.download": {
-    "defaultMessage": "Em breve"
+    "defaultMessage": "Carteira Begin"
   },
   "footer.contact": {
     "defaultMessage": "Contato"
@@ -27,16 +27,16 @@
     "defaultMessage": "Redes Sociais"
   },
   "home.body": {
-    "defaultMessage": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira B58 com serviços DeFi usando Cardano, você tem controle de suas finanças.{br}Obtenha acesso a pagamentos globais onde as transações são sem fronteiras e de baixo custo, podendo ser usado entre amigos e familiares ou com a sua empresa.{br}Construa sua riqueza ganhando recompensas na sua poupança. Ao mesmo tempo, você estará livre para usar o seu saldo sempre que precisar.{br}"
+    "defaultMessage": "Enviar, receber, ganhar e navegar pelos DApps com segurança com começo pelo Cardano Blockchain.{br}"
   },
   "home.btn.download": {
-    "defaultMessage": "Em breve"
+    "defaultMessage": "Carteira Begin"
   },
   "home.btn.whitepaper": {
     "defaultMessage": "Leia a Especificação"
   },
   "home.title": {
-    "defaultMessage": "Faça parte de um mundo financeiro aberto, seguro e global"
+    "defaultMessage": "Está na hora de begin sua jornada web3"
   },
   "menu.about": {
     "defaultMessage": "Sobre"
@@ -60,7 +60,7 @@
     "defaultMessage": "Especificação"
   },
   "page.description": {
-    "defaultMessage": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira B58 com serviços DeFi usando Cardano, você tem controle de suas finanças."
+    "defaultMessage": "A forma mais fácil de fazer parte do mundo financeiro descentralizado. Onde todos são bem-vindos na carteira Begin com serviços DeFi usando Cardano, você tem controle de suas finanças."
   },
   "page.title": {
     "defaultMessage": "B58 Finance - Cripto Carteira Multifuncional com serviços DeFi usando Cardano"
@@ -198,19 +198,25 @@
     "defaultMessage": "A nossa equipe está contruindo essa plataforma para nós mesmos usarmos, o que resulta em um produto de alta qualidade para você também usar.{br}Estamos comprometidos em entregar o melhor em desenvolvimento de software, trazendo uma grande esperiência em Enterprise Software, Cloud Engineer e Cyber Security."
   },
   "team.description.flavio": {
-    "defaultMessage": "20 anos de experiência em Desenvolvimento de Backend especializado em desenvolver ferramentas e integrações empresariais no ecossistema SAP, focado em Cadeia de Suprimentos, Fabricação e Finanças. Como consultor, trabalhou com empresas multinacionais e automobilisticas como a Fiat e a Chrysler."
+    "defaultMessage": "Mais de 20 anos de experiência em Desenvolvimento de Backend, trabalhando em ferramentas empresariais para Fabricação e Finanças."
   },
   "team.description.francis": {
-    "defaultMessage": "20 anos de experiência no Desenvolvimento de Software, trabalhando com uma variedade de linguagens. E fazendo parte de projetos na América do Sul como consultor, vivendo e ajudando a desenvolver o Sistema de Segurança Social de Angola na África, e trabalhando como Engenheiro de Cyber Security em um Banco Global."
+    "defaultMessage": "Mais de 20 anos de experiência no domínio do desenvolvimento de software, trabalhando em projectos na África, Américas e Europa."
   },
   "team.description.gabriel": {
-    "defaultMessage": "11 anos de experiência em Desenvolvimento de Software e especialização em dispositivos móveis oferecendo soluções multiplataformas, trabalhando desenvolvendo sistemas de ERP personalizados para o mercado brasileiro e atualmente desenvolvendo uma solução para iOS e Android Mobile para empresas de seguros de saúde nos EUA."
+    "defaultMessage": "Mais de 11 anos de experiência em Desenvolvimento de Software e Especialização em Mobile, oferecendo soluções multiplataforma."
+  },
+  "team.description.nick": {
+    "defaultMessage": "UX Designer com experiência em Motion Design e Design Gráfico e entusiasta Crypto."
   },
   "team.role.advisor": {
     "defaultMessage": "Conselheiro"
   },
   "team.role.cofounder": {
     "defaultMessage": "Co-Fundador"
+  },
+  "team.role.designer": {
+    "defaultMessage": "Designer"
   },
   "team.role.developer": {
     "defaultMessage": "Desenvolvedor"

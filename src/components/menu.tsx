@@ -60,7 +60,7 @@ const Menu = ( {hover, onClick}: Props ) => {
     <a href="https://b58finance.medium.com/" target="_blank" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
       {f(messages.blog)}
     </a>
-    <a href="/assets/docs/whitepaper_v1_062021.pdf" target="_blank" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
+    <a href="/assets/docs/whitepaper_v1.1_092022.pdf" target="_blank" onClick={onClick} className={"block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:"+hover}>
       {f(messages.whitepaper)}
     </a>
     </>

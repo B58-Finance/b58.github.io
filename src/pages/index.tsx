@@ -30,7 +30,7 @@ const messages = defineMessages({
   pageDescription: {
     id: 'page.description',
     defaultMessage: 'The easiest way of being part of a decentralized financial world. '+
-    'Where everyone is welcome on B58 DeFi Wallet on Cardano, that you are in control of your finances.'
+    'Where everyone is welcome on Begin Wallet on Cardano, that you are in control of your finances.'
   }
 })
 

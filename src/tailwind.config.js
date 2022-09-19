@@ -17,11 +17,14 @@ module.exports = {
         success: '#0070f3',
         cyan: '#79FFE1',
         blue: {
-          light: '#00CCFF',
+          light: '#3414FC',
           medium: '#0087FF',
           dark: '#01084A',
           ultra: '#00101E',
         },
+        gray: {
+          dark: '#181818'
+        }
 
       },
       spacing: {
@@ -70,12 +73,12 @@ module.exports = {
         },
         'body.dark-theme': {
           color: config("theme.colors.white"),
-          backgroundColor: config("theme.colors.black"),
+          backgroundColor: config("theme.colors.gray.dark"),
         },
         "@screen dark": {
           body: {
             color: config("theme.colors.white"),
-            backgroundColor: config("theme.colors.black"),
+            backgroundColor: config("theme.colors.gray.dark"),
           },
           'body.light-theme': {
             color: config("theme.colors.black"),

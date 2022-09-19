@@ -5,7 +5,7 @@ import TeamAvatar from './team-avatar';
 const messages = defineMessages({
   teamTitle: {
     id: 'team.title',
-    defaultMessage: 'We are the Team that is building it for you'
+    defaultMessage: 'We are the Team building it for you'
   },
   teamBody: {
     id: 'team.body',
@@ -21,21 +21,29 @@ const messages = defineMessages({
     id: 'team.role.developer',
     defaultMessage: 'Developer'
   },
+  teamRoleDesigner: {
+    id: 'team.role.designer',
+    defaultMessage: 'Designer'
+  },
   teamRoleAdvisor: {
     id: 'team.role.advisor',
     defaultMessage: 'Advisor'
   },
   teamDescriptionFrancis: {
     id: 'team.description.francis',
-    defaultMessage: '20 years of experience in Software Development, working with a variety of languages. And being part of projects in South America as consultant, living and helping to develop the Social Security System of Angola Africa, and working as a Cyber Security Engineer at a Global Bank.'
+    defaultMessage: 'More than 20 years of experience in Software Development, working in projects in Africa, Americas and Europe.'
   },
   teamDescriptionFlavio: {
     id: 'team.description.flavio',
-    defaultMessage: '20 years of experience in Backend Development specialized in developing Enterprise tools and integrations in SAP ecosystem, focused on Supply Chain, Manufacturing and Financial. As a consultant have worked with multinational companies and automakers such as Fiat and Chrysler.'
+    defaultMessage: 'More than 20 years of experience in Backend Development, working in Enterprise tools for Manufacturing and Financial.'
   },
   teamDescriptionGabriel: {
     id: 'team.description.gabriel',
-    defaultMessage: '11 years of experience in Software Development and Mobile specialist delivering cross-platform solutions, working developing custom ERP Systems for the Brazilian Market, and currently developing a iOS and Android Mobile solution for Health Insurance companies in the USA.'
+    defaultMessage: 'More than 11 years of experience in Software Development and Mobile specialist delivering cross-platform solutions.'
+  },
+  teamDescriptionNick: {
+    id: 'team.description.nick',
+    defaultMessage: 'UX Designer with a background in Motion Design and Graphic Design, and Crypto enthusiast.'
   },
 })
 
@@ -43,21 +51,21 @@ const Team = () => {
 
   return (
     <section id="team" className="pt-10 -mt-10 lg:pt-20 lg:-mt-20">
-      <div className="lg:mt-6 grid grid-cols-1 md:grid-cols-2 md:col-gap-6 row-gap-0 md:row-gap-6 lg:mb-10">
-        <div className="flex flex-wrap content-center p-6">
+      <div className="lg:mt-6">
+        <div className="flex flex-wrap justify-center p-6">
           <h1 className="text-3xl lg:text-6xl font-medium leading-tight">
             {f(messages.teamTitle)}
           </h1>
         </div>
-        <div className="lg:ml-6 p-6 pt-2 lg:pt-6">
+        {/* <div className="lg:ml-6 p-6 pt-2 lg:pt-6">
           <p className="text-base text-justify lg:text-left lg:mr-8">
           {f(messages.teamBody,{
               br: <><br/><br/></>              
             })}
           </p>
-        </div>
+        </div> */}
       </div>
-      <div className="p-6 lg:mt-6 grid grid-cols-1 md:grid-cols-3 md:col-gap-28 row-gap-0 md:row-gap-6 lg:mb-10">
+      <div className="p-6 lg:mt-6 grid grid-cols-1 md:grid-cols-4 md:col-gap-28 row-gap-0 md:row-gap-6 lg:mb-10">
         <TeamAvatar 
           name="Francis Luz"
           img="/images/francis.jpeg"
@@ -81,6 +89,14 @@ const Team = () => {
           linkedin="gabrielgc"
           github="gabrielgc"
           description={f(messages.teamDescriptionGabriel)}
+        />
+        <TeamAvatar 
+          name="Nicholas Echols"
+          img="/images/nicholas.jpeg"
+          role={f(messages.teamRoleDesigner)}
+          linkedin="nickechols"
+          github="nickwechols"
+          description={f(messages.teamDescriptionNick)}
         />
       </div>
     </section>

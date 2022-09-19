@@ -4,20 +4,16 @@ import f from "../lib/translate";
 const messages = defineMessages({
   homeTitle: {
     id: 'home.title',
-    defaultMessage: 'Be part of an open, secure and global financial world'
+    defaultMessage: 'It’s time to begin your web3 journey'
   },
   homeBody: {
     id: 'home.body',
-    defaultMessage: 'The easiest way of being part of a decentralized financial world. Where everyone is welcome on B58 DeFi Wallet on Cardano, that you are in control of your finances.' +
-    '{br}'+
-    'Get access to global payments where transactions are borderless and low fees using it with friends and family or your business.'+
-    '{br}' +
-    'Build up your wealth by earning rewards on your savings. At the same time, you\'re free to use your balance whenever you need.'+
+    defaultMessage: 'Send, receive, earn, and browse DApps safely with Begin powered by the Cardano Blockchain.' +
     '{br}'
   },
   homeBtnDownload: {
     id: 'home.btn.download',
-    defaultMessage: 'Available Soon'
+    defaultMessage: 'Begin Wallet'
   },
   homeBtnWhitePaper: {
     id: 'home.btn.whitepaper',
@@ -28,7 +24,7 @@ const messages = defineMessages({
 const Home = () => {
 
   return (
-    <div id="home" className={"pt-16 -mt-16 lg:pt-32 lg:-mt-32 text-white bg-home dark:to-blue-dark"}>
+    <div id="home" className={"pt-16 -mt-16 lg:pt-32 lg:-mt-32"}>
       <section className="container mx-auto lg:px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 md:col-gap-16 lg:col-gap-32 row-gap-0 md:row-gap-32">
           <div className="p-6">
@@ -43,25 +39,24 @@ const Home = () => {
               }
             </p>
             <div className="lg:mt-10 lg:mb-10 flex flex-col lg:flex-row">
-              <a href="#" role="button" className="w-full mb-4 text-center border-2 border-blue-light bg-blue-light hover:border-white hover:shadow-lg hover:bg-white hover:text-blue-light text-sm text-white uppercase font-bold py-4 px-6 rounded-md mr-10">
+              <a href="https://begin.is" target='_blank' role="button" className="w-full mb-4 text-center border-2 border-blue-light bg-blue-light hover:border-white hover:shadow-lg hover:bg-white hover:text-blue-light text-sm text-white uppercase font-bold py-4 px-6 rounded-md mr-10">
                 {f(messages.homeBtnDownload)}
               </a>
-              <a href="/assets/docs/whitepaper_v1_062021.pdf" target="_blank" role="button" className="w-full mb-4 text-center border-2 border-blue-light hover:border-white hover:text-white text-sm text-blue-light uppercase font-bold py-4 px-6 rounded-md">
+              <a href="/assets/docs/whitepaper_v1.1_092022.pdf" target="_blank" role="button" className="w-full mb-4 text-center border-2 border-blue-light hover:border-white hover:text-white text-sm text-blue-light uppercase font-bold py-4 px-6 rounded-md">
                 {f(messages.homeBtnWhitePaper)}
               </a>
             </div>
           </div>
-          <div>
-            <img src="/images/b58_app_home.png"
-              alt="B58 Finance App Home"
-              className="img-light dark:hidden"
-              style={{ backgroundImage: `url('/images/bg_b58_app_home.png')`, backgroundSize: 'cover' }}
+          <div className='flex text-center items-center justify-center'>
+            <img className='w-1/2' src="/images/begin_wallet_home.png"
+              alt="Begin Wallet App Home"
+              // className="img-light dark:hidden"
             />
-            <img src="/images/b58_app_home_dark.png"
+            {/* <img src="/images/b58_app_home_dark.png"
               alt="B58 Finance App Home"
               className="img-dark dark:block"
               style={{ backgroundImage: `url('/images/bg_b58_app_home.png')`, backgroundSize: 'cover' }}
-            />
+            /> */}
           </div>
         </div>
       </section>

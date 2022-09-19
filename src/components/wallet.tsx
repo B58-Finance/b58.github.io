@@ -39,17 +39,17 @@ const Wallet = () => {
             })}
           </p>
         </div>
-        <div>
-          <img src="/images/b58_app_qr.png"
-            alt="B58 Finance App Home"
-            className="img-light dark:hidden"
-            style={{ backgroundImage: `url('/images/bg_b58_app_home.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
+        <div className='flex text-center items-center justify-center'>
+          <img className='w-1/2' src="/images/begin_wallet_qr.png"
+            alt="Begin Wallet App QR Card"
+            // className="img-light dark:hidden"
+            // style={{ backgroundImage: `url('/images/bg_b58_app_home.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
           />
-          <img src="/images/b58_app_qr_dark.png"
+          {/* <img src="/images/b58_app_qr_dark.png"
             alt="B58 Finance App Home"
             className="img-dark dark:block"
             style={{ backgroundImage: `url('/images/bg_b58_app_home.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
-          />
+          /> */}
         </div>
       </div>
     </section>
